@@ -4,7 +4,7 @@ import Pagination from './Pagination'
 function App() {
     const [comment, setComment] = useState([])
     const [currentData, setCurrentData] = useState(1)
-    const [postPerPage, setPostPerPage] = useState(20)
+    const [postPerPage, setPostPerPage] = useState(15)
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/comments')
             .then((response) => response.json())
