@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.tiles{
+    display: grid;
+    grid-template-columns: repeat(8,80px);
+    grid-template-rows: repeat(8,80px);
+
+}
+.tile{
+
+}
+.tile--light{
+    background-color: rgb(241, 186, 138);
+}
+.tile--dark{
+    background-color: rgb(132, 61, 20);
+}

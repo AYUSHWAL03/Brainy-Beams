@@ -2,7 +2,7 @@ import React,{useState,useContext} from 'react'
 // import { ThemeChange } from './App' 
 function Header() {
     // const {setBgColor,setColor,bgColor,color} = useContext(ThemeChange) // destructuring of state from context
-    const [bgColor, setBgColor] = useState(localStorage.getItem('bgColor')||'white') //This is local storage implementation
+    const [bgColor, setBgColor] = useState(localStorage.getItem('bgColor')||'white') //This is local storage o
     const [color, setColor] = useState(localStorage.getItem('color') || 'black')
     const BgColorSetter = () =>{
         const newBgColor = bgColor === 'white' ? 'black' : 'white';
