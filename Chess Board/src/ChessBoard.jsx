@@ -8,7 +8,7 @@ function ChessBoard() {
     const getClassName = (i,j)=>{
         let c = ''
         c+= (i+j)%2 === 0 ? 'tile--light' : 'tile--dark'
-        return c
+        return c;
     }
   return (
     <div className='bg-black flex justify-center items-center text-white text-center h-dvh w-dvh'>
@@ -23,7 +23,7 @@ function ChessBoard() {
                     </div>
                 )
             })
-            )}
+        )}
         </div>
         <Pieces />
     </div>

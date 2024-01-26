@@ -3,7 +3,7 @@ import Piece from './Piece';
 import './piece.css'
 function Pieces() {
   const pos = new Array(8).fill('').map(x => new Array(8).fill(''));
-  pos[0][0] = 'wr'; // Set the piece at position 0,0
+//   pos[0][0] = 'wr'; // Set the piece at position 0,0
   for (let i = 0; i < 8; i++) {
     pos[1][i] = 'wp'
     pos[6][i] = 'bp'
